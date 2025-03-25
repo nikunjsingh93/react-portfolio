@@ -9,7 +9,7 @@ function Home() {
       </div>
 
       <div className="col-span-2 px-5 my-auto">
-        <h1 className="text-white text-4xl sm:text-5xl lg:text-8xl font-extrabold">
+        <div className="text-white text-4xl sm:text-5xl lg:text-8xl font-extrabold">
           <span className="primary-color"> I am a</span> <br></br>
           <TypeAnimation
             sequence={[
@@ -24,7 +24,7 @@ function Home() {
             speed={50}
             repeat={Infinity}
           />
-        </h1>
+        </div>
       </div>
     </div>
   );
