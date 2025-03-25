@@ -15,7 +15,7 @@ function Home() {
             sequence={[
               "Frontend Dev",
               1000,
-              "WebDesigner",
+              "Web Designer",
               1000,
               "Debugger",
               1000,
