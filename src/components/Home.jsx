@@ -17,7 +17,7 @@ function Home() {
               1000,
               "WebDesigner",
               1000,
-              "Engineer",
+              "Debugger",
               1000,
             ]}
             wrapper="span"
