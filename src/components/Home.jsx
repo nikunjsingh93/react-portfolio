@@ -10,21 +10,22 @@ function Home() {
 
       <div className="col-span-2 px-5 my-auto">
         <h1 className="text-white text-4xl sm:text-5xl lg:text-8xl font-extrabold">
-            <span className="primary-color"> I am a</span> <br></br>
-            <TypeAnimation
+          <span className="primary-color"> I am a</span> <br></br>
+          <TypeAnimation
             sequence={[
-                "Frontend Dev",1000, "WebDesigner",1000, "Engineer",1000
+              "Frontend Dev",
+              1000,
+              "WebDesigner",
+              1000,
+              "Engineer",
+              1000,
             ]}
             wrapper="span"
             speed={50}
             repeat={Infinity}
-             />
-
-            
-
+          />
         </h1>
       </div>
-
     </div>
   );
 }
